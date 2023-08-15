@@ -1,0 +1,84 @@
+.formContain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 250, 250);
+}
+.formSubContain{
+    width: auto;
+    height: auto;
+    border: solid 1px ;
+    border-radius: 0px;
+    backdrop-filter: blur(14px);
+}
+.formContainTitle{
+    background-color:rgb(108, 127, 11);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.formTitle{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+label{
+    margin-left: 10px;
+}
+.formInput{
+    border: solid 1px rgb(228, 228, 19);
+    border-radius: 5px;
+    background-color: rgba(73, 85, 9, 0.475);
+    margin: 8px 10px;
+    outline: none;
+    padding-left: 7px;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+.formContainBtn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    justify-content: space-evenly;
+
+}
+.formBtn{
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgb(88, 88, 86);
+    font-size: 15px;
+    color: white;
+}
+.formBtn:hover{
+    color: rgb(255, 247, 0);
+    cursor: pointer;
+}
+.formError{
+    color: red;
+    font-size: 13px;
+    margin-left: 10px;
+}
+option{
+    background-color: rgb(0, 0, 0);
+}
+.formContainCountry{
+    border: solid 1px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+}
+.formBtnCountry{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}

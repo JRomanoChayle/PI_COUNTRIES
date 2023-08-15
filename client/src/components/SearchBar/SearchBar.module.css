@@ -1,0 +1,30 @@
+.searchContain{
+    width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.searchInput{
+    height: 28px;
+    width: 250px;
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+    border: solid 1px rgb(177, 223, 13);
+    padding-left: 10px;
+    outline: none;
+    color: white;
+}
+.searchBtn{
+    background-color: rgb(141, 148, 8);
+    border: none;
+    border-radius: 7px;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+}
+.searchBtn:hover{
+    background-color: rgb(61, 66, 8);
+}

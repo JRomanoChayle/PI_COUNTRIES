@@ -1,0 +1,46 @@
+.landingContain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://web.stanford.edu/group/sias/cgi-bin/wordpress/wp-content/uploads/2013/12/world-map-wallpaper-4053-hd-wallpapers1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+.landingSubContain{
+    width: 550px;
+    height: 140px;
+    margin: auto;
+    border: solid 3px ;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    padding: 4vh;
+}
+.landingTitle{
+    font-style: italic;
+    font-size: 55px;
+    color: yellow
+}
+.landingMsg{
+    color: white;
+}
+.landingBtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    border: solid 1px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+}
+.landingBtn:hover{
+    background-color: rgba(255, 255, 0, 0.695);
+    transform: scale(1.06);
+    transition: transform .3s;
+    transition: background-color .3s;
+}

@@ -1,0 +1,21 @@
+.paginatedContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.active{
+    background-color: rgb(100, 100, 100);
+    width: 28px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.active:hover{
+    background-color: rgb(148, 145, 15);
+    border-radius: 6px;
+}

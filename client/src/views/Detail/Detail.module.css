@@ -1,0 +1,77 @@
+.detailContain{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.detailSubContain{
+    border: solid 1px ;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 900px;
+    height: auto;
+    background-color: rgba(44, 48, 3, 0.669);
+}
+.detailInfo{
+    display: flex;
+}
+.detailCountry{
+    width: 450px;
+}
+.detailCountryImg{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px 0 0 0 ;
+}
+.detailContainText{
+    background-color: rgba(117, 139, 7, 0.671);
+    border-radius: 5px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detailText{
+    font-size: 28px;
+}
+.titleActivities{
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+.detailContainActivity{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detailCardActivity{
+    width: 180px;
+    height: 80px;
+    border: solid 2px rgb(238, 255, 0);
+    border-radius: 7px;
+    margin: 10px;
+    text-align: center;
+}
+.detailContainBtn{
+    display: flex;
+    justify-content: center;
+}
+.detailBtn{
+    padding: 4px 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgb(69, 67, 8);
+    font-size: 20px;
+    color: white;
+}
+.detailBtn:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
