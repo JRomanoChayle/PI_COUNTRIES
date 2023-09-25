@@ -1,10 +1,10 @@
 import { GET_COUNTRIES, GET_COUNTRY_ID, SEARCH_COUNTRIES, CLEAN_DETAIL, 
     FILTER_BY_CONTINENT, ORDER_BY_NAME, ORDER_BY_POPULATION, 
-    FILTER_BY_ACTIVITY, POST_ACTIVITY, GET_ACTIVITY } from "./action-type";
+    FILTER_BY_ACTIVITY, POST_ACTIVITY, GET_ACTIVITY, ORDER_BY_AREA } from "./action-type";
 import axios from 'axios';
 
 
-// Funcion encargada de traer todos los paises
+// TODOS LOS PAISES
 export const getCountries = () => {
     return async (dispatch) => {
         try {
@@ -16,7 +16,7 @@ export const getCountries = () => {
         }
     };
 };
-// Funcion encargada de traer un pais especificado por su id
+// PAIS POR ID
 export const getCountry = (id) => {
     return async function (dispatch) {
         try {
@@ -28,7 +28,7 @@ export const getCountry = (id) => {
         }
     }
 }
-// Funcion encargada de traer todas las actividades
+// TODAS LAS ACTIVIDADES
 export const getActivities = () => {
     return async (dispatch) => {
         try {
@@ -40,7 +40,7 @@ export const getActivities = () => {
         }
     };
 };
-// Funcion encargada de enviar los datos para la creacion de una nueva actividad
+// CREACION DE ACTIVIDAD CON DATA DE FORM
 export const postActivity = (payload) => {
     return async function(dispatch){
         try {
@@ -95,3 +95,7 @@ export const orderByPopulation = (payload) => {
         payload
     }
 };
+export const orderByArea = (payload) => {
+    return {type: ORDER_BY_AREA,
+    payload}
+}

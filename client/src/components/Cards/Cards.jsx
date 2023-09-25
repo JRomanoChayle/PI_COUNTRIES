@@ -3,9 +3,7 @@ import Card from "../Card/Card";
 
 const Cards = ({currentCountry}) => {
 
-   // Este componente Cards recibe una lista de países a través del prop currentCountry, y luego crea un conjunto de
-   // tarjetas (Card) para cada país, mostrando información como la imagen, el nombre, el continente y la población 
-   // de cada país.
+   // PASA POR PROPS LAS CARDS A RENDERIZAR A COMPONENTE CARD
    return (
       <div className={style.cardsContainer}>
          {
@@ -18,6 +16,7 @@ const Cards = ({currentCountry}) => {
                      name={country.name}
                      continent={country.continent}
                      population={country.population}
+                     area={country.area}
                   />
                )
             })

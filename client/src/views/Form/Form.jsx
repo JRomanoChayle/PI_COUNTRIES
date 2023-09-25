@@ -81,7 +81,6 @@ const Form = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        if (form.name === '' && form.duration === '' && form.difficulty === '' && form.season === '' && form.pais === '') return alert('You must complete all fields')
         dispatch(postActivity(form))
         alert("The activity was created successfully")
         setForm({
@@ -174,7 +173,7 @@ const Form = () => {
                         </NavLink>
                     </div>
                     <div>
-                        <button className={style.formBtn} type="submit" disabled={disabled ||
+                        <button className={style.formBtn} type="submit" disabled={
                             errors.name ||
                             errors.difficulty ||
                             errors.duration ||

@@ -59,6 +59,9 @@ label{
     color: rgb(255, 247, 0);
     cursor: pointer;
 }
+.fornBtn:disabled{
+    background-color: rgb(255, 0, 0);
+}
 .formError{
     color: red;
     font-size: 13px;
@@ -82,3 +85,4 @@ option{
     background-color: red;
     cursor: pointer;
 }
+
